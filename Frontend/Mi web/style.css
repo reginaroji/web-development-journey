@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rammetto+One&display=swap');
+
+* {
+    margin: 0;
+}
+
+body { /*esto amntiene los espacios en blanco a los lados de la página*/
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Aquí empiezan el estilo title section */
+
+.title-section {
+    height: 100vh;
+}
+
+h1 {
+    font-family: "Rammetto One", sans-serif;
+    font-size: 8rem;
+    color: #006c3f;
+    margin-bottom: -45px;
+}
+
+.my-image {
+    height: 80vh;
+}
+
+.banner-flex {
+    display: flex;
+    justify-content: space-between;
+    /* height: 100vh; */
+    align-items: center;
+}
+
+.title-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subtitle-1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #eb8861;
+}
+
+
+.title-section p {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.div-svg {
+    display: flex;
+    justify-content: center;
+}
+
+.title-section svg {
+    width: 40px;
+    height: 40px;
+    color: #006c3f;
+}
+
+/* Aquí empiezan el estilo del body */
+
+.body-section {
+    margin-top: 50px;
+    height: 80vh;
+}
+
+.subtitle-2 {
+    font-family: "Rammetto One", sans-serif;
+    color: #006c3f;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.cards-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-flex img {
+    width: 350px;
+}
+
+.cards {
+    height: 500px;
+    border-radius: 0 0 20px 20px;
+}
+
+.p-flex {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: end;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.card1 {
+    background-color: #eb8861;
+}
+
+.card2 {
+    background-color: #f3be72;
+}
+
+.card3 {
+    background-color: #c6c5ff;
+}
+
+/* Aquí empiezan el estilo del final section */
+
+.final-flex {
+    display: flex;
+    /* justify-content: space-between; */
+    height: 70vh;
+}
+
+.final-general {
+    padding:60px;
+    width: 50%;
+}
+
+.amiga {
+    display: flex;
+    background-color: #285584;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.2;
+    align-items: center;
+    justify-content: center;
+}
+
+.final-subtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+textarea {
+    width: 90%;
+    height: 60%;
+    border-radius: 30px;
+    border: 8px solid #c6c5ff;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.button {
+    text-align: right;
+    /* display: flex;
+    justify-content: end; */
+}
+
+button {
+    background-color: #f3be72;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    width: 30%;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.footer {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #eb8861;
+}
